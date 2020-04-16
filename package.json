@@ -1,0 +1,19 @@
+{
+  "name": "jspoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArSo77/jspoc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArSo77/jspoc/issues"
+  },
+  "homepage": "https://github.com/ArSo77/jspoc#readme"
+}
