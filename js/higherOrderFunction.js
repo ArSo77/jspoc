@@ -12,10 +12,11 @@ const reduce = (reducer, initial, arr) => {
         result = reducer(result, arr[i]) ? result : arr[i]
     }
     return result
-} 
+}
 
 const filter = (reducer, arr) => reduce(reducer, [], arr)
-const shortest = filter((prev, next) => prev.duration > next.duration,songs) /*?*/
+const shortest = filter((prev, next) => prev.duration > next.duration,songs) /*?*/ 
+
 
 
 // imperatywne opisuje w jaki sposob jest coś robione, pętle for itp
