@@ -1,32 +1,29 @@
 h1 {
-    color: red
+  color: red;
 }
 
-.box{
-    border: 1px solid gray;
-    padding: 20px;
-    background: blue;
+.box {
+  border: 1px solid gray;
+  padding: 20px;
+  background: blue;
 }
-
-
-
 
 .one.active {
-    background: red;
+  background: red;
 }
 
 .two.active {
-    background: red;
+  background: red;
 }
 
 .three.active {
-    background: red;
+  background: red;
 }
 
 .four.active {
-    background: red;
+  background: red;
 }
 
 .five.active {
-    background: red;
+  background: red;
 }
