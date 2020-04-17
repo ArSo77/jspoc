@@ -17,7 +17,7 @@ button.addEventListener('click', () => {
 function debfun() {
     let timer = null
     function debin() {
-        if(timer) clearTimeout(timer)
+        timer && clearTimeout(timer)
         timer = setTimeout(() => {
             console.log("------------")
         }, 500)
