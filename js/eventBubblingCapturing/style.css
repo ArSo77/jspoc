@@ -1,0 +1,32 @@
+h1 {
+    color: red
+}
+
+.box{
+    border: 1px solid gray;
+    padding: 20px;
+    background: blue;
+}
+
+
+
+
+.one.active {
+    background: red;
+}
+
+.two.active {
+    background: red;
+}
+
+.three.active {
+    background: red;
+}
+
+.four.active {
+    background: red;
+}
+
+.five.active {
+    background: red;
+}
