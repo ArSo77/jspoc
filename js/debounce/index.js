@@ -8,6 +8,7 @@ debun = debfun()
 
 button.addEventListener('click', () => {
     debun()
+    console.log("CLICK!")
 })
 
 
@@ -19,7 +20,7 @@ function debfun() {
     function debin() {
         timer && clearTimeout(timer)
         timer = setTimeout(() => {
-            console.log("------------")
+            console.log("--debounce--")
         }, 500)
     }
     return debin
