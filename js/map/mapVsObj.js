@@ -5,7 +5,7 @@ for( let [key, letter] of map){ //to jest destrukturyzacja, mozna tez przez entr
     console.log(letter)
 }
 for (let key in obj) {
-    console.log(obj[key])
+    console.log(key, obj[key])
 }
 //długość mapy vs obiektu
 // console.log(map.size) //3
