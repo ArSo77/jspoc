@@ -15,7 +15,7 @@ const reduce = (reducer, initial, arr) => {
 }
 
 const filter = (reducer, arr) => reduce(reducer, [], arr)
-const shortest = filter((prev, next) => prev.duration > next.duration,songs) /*?*/ 
+const shortest = filter((prev, next) => prev.duration > next.duration, songs) /*?*/
 
 
 
