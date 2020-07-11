@@ -1,13 +1,8 @@
 // Problem
+const numbers = [44, 3, 84, 23];
 function multiply(value, multiplier) {
     return value * multiplier
 }
-
-const numbers = [44, 3, 84, 23];
-
-// numbers.map(multiply(2));
-
-
 // Partial Application
 const double = multiply.bind(null , 2);
 double(5);
